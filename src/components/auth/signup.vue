@@ -51,8 +51,7 @@
 </template>
 
 <script>
-// import axios from 'axios';
-import axios from '../../axios-auth.js';
+
 
   export default {
     data () {
@@ -88,10 +87,8 @@ import axios from '../../axios-auth.js';
           terms: this.terms
         }
 		console.log(formData)
-		
-		axios.post('/users.json', formData)
-		.then(res => console.log(res))
-		.catch((err) => console.log(err));
+		this.$store.dispatch('signup', formData);
+
       }
     }
   }

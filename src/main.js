@@ -6,7 +6,7 @@ import router from './router';
 import store from './store';
 
 axios.defaults.baseURL = 'https://vue-axios-combo.firebaseio.com';
-axios.defaults.headers.common['Authorization'] = 'token-placeholder';
+// axios.defaults.headers.common['Authorization'] = 'token-placeholder';
 axios.defaults.headers.get['Accepts'] = 'application/json';
 
 // Set interceptors
