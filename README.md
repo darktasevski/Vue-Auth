@@ -1,10 +1,19 @@
 # Authentication in Vue -- Example
 
-One Paragraph of project description goes here
+Example of handling authentication with Vue and Firebase :fire:
+
+Features:
+
+-   Firebase authentication
+-   Protected routes
+-   Handling token expiration
+-   Autologin if token valid
+-   Axios instances, and custom configuration
+-   Vuex jumbo mumbo
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Clone project to your computer, run `yarn` and once dependencies have finished installing you can start up application with `yarn run dev` command in your terminal.
 
 ### Prerequisites
 
@@ -20,40 +29,13 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+git clone https://github.com/Puritanic/Vue-Auth.git
+cd Vue-Auth
+yarn
+yarn run dev
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Profit?
 
 ## Built With
 
@@ -82,4 +64,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 -   Hat tip to anyone whose code was used
--   Inspiration
